@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>02EFF1F2-DE38-42E7-873E-E28F30AB8EC6</string>
+	<key>IDESourceControlProjectName</key>
+	<string>VoronoiFortune</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>62B8C094-CCD0-4521-92D6-B59FEEA4751D</key>
+		<string>mikko@192.168.1.21:/home/mikko/gitrepos/voronoi_fortune</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>VoronoiFortune.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>62B8C094-CCD0-4521-92D6-B59FEEA4751D</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>mikko@192.168.1.21:/home/mikko/gitrepos/voronoi_fortune</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>62B8C094-CCD0-4521-92D6-B59FEEA4751D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>62B8C094-CCD0-4521-92D6-B59FEEA4751D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>voronoi_fortune</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,550 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C00DBCE915A0532900A989BB /* VoronoiGraphics.c in Sources */ = {isa = PBXBuildFile; fileRef = C00DBCE815A0532900A989BB /* VoronoiGraphics.c */; };
+		C00DBCF115A061E300A989BB /* VoronoiGraphics.m in Sources */ = {isa = PBXBuildFile; fileRef = C00DBCF015A061E300A989BB /* VoronoiGraphics.m */; };
+		C0600729158D36CE00B2C116 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0600728158D36CE00B2C116 /* UIKit.framework */; };
+		C060072B158D36CE00B2C116 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C060072A158D36CE00B2C116 /* Foundation.framework */; };
+		C060072D158D36CE00B2C116 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C060072C158D36CE00B2C116 /* CoreGraphics.framework */; };
+		C0600733158D36CE00B2C116 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C0600731158D36CE00B2C116 /* InfoPlist.strings */; };
+		C0600735158D36CE00B2C116 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C0600734158D36CE00B2C116 /* main.m */; };
+		C0600739158D36CE00B2C116 /* VoronoiFortuneAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C0600738158D36CE00B2C116 /* VoronoiFortuneAppDelegate.m */; };
+		C0600747158D36CE00B2C116 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0600746158D36CE00B2C116 /* SenTestingKit.framework */; };
+		C0600748158D36CE00B2C116 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0600728158D36CE00B2C116 /* UIKit.framework */; };
+		C0600749158D36CE00B2C116 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C060072A158D36CE00B2C116 /* Foundation.framework */; };
+		C0600751158D36CE00B2C116 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C060074F158D36CE00B2C116 /* InfoPlist.strings */; };
+		C0600754158D36CE00B2C116 /* VoronoiFortuneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C0600753158D36CE00B2C116 /* VoronoiFortuneTests.m */; };
+		C060075F158D37FE00B2C116 /* PointEditorView.m in Sources */ = {isa = PBXBuildFile; fileRef = C060075E158D37FE00B2C116 /* PointEditorView.m */; };
+		C0600763158D438C00B2C116 /* PointEditorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0600761158D438C00B2C116 /* PointEditorViewController.m */; };
+		C060078615912CBB00B2C116 /* EventQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = C060077415912CB700B2C116 /* EventQueue.m */; };
+		C060078915912CBB00B2C116 /* VoronoiBeachline.m in Sources */ = {isa = PBXBuildFile; fileRef = C060077A15912CB900B2C116 /* VoronoiBeachline.m */; };
+		C060078A15912CBB00B2C116 /* VoronoiCircle.m in Sources */ = {isa = PBXBuildFile; fileRef = C060077C15912CB900B2C116 /* VoronoiCircle.m */; };
+		C060078B15912CBB00B2C116 /* VoronoiDiagram.m in Sources */ = {isa = PBXBuildFile; fileRef = C060077F15912CBA00B2C116 /* VoronoiDiagram.m */; };
+		C060078C15912CBB00B2C116 /* VoronoiFortuneAlgorithm.m in Sources */ = {isa = PBXBuildFile; fileRef = C060078115912CBA00B2C116 /* VoronoiFortuneAlgorithm.m */; };
+		C060078D15912CBB00B2C116 /* VoronoiMath.c in Sources */ = {isa = PBXBuildFile; fileRef = C060078215912CBA00B2C116 /* VoronoiMath.c */; };
+		C060078E15912CBB00B2C116 /* VoronoiSite.m in Sources */ = {isa = PBXBuildFile; fileRef = C060078515912CBB00B2C116 /* VoronoiSite.m */; };
+		C060079815912D4600B2C116 /* VoronoiView.m in Sources */ = {isa = PBXBuildFile; fileRef = C060079715912D4600B2C116 /* VoronoiView.m */; };
+		C060079C15912FB300B2C116 /* VoronoiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C060079A15912FB300B2C116 /* VoronoiViewController.m */; };
+		C079036015AE17DC0065E915 /* icon3_144d.png in Resources */ = {isa = PBXBuildFile; fileRef = C079035F15AE17DC0065E915 /* icon3_144d.png */; };
+		C079036215AE18BC0065E915 /* icon3_72d.png in Resources */ = {isa = PBXBuildFile; fileRef = C079036115AE18BC0065E915 /* icon3_72d.png */; };
+		C07DAE89161CE94D00B3C953 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C07DAE88161CE94D00B3C953 /* Default-568h@2x.png */; };
+		C0F008791592628D0032F8C2 /* VoronoiFortuneUi.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0F008781592628D0032F8C2 /* VoronoiFortuneUi.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C060074A158D36CE00B2C116 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C060071B158D36CE00B2C116 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C0600723158D36CE00B2C116;
+			remoteInfo = VoronoiFortune;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C00DBCE815A0532900A989BB /* VoronoiGraphics.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = VoronoiGraphics.c; sourceTree = "<group>"; };
+		C00DBCEF15A061E300A989BB /* VoronoiGraphics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VoronoiGraphics.h; path = ../VoronoiGraphics.h; sourceTree = "<group>"; };
+		C00DBCF015A061E300A989BB /* VoronoiGraphics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VoronoiGraphics.m; path = ../VoronoiGraphics.m; sourceTree = "<group>"; };
+		C00DBCF215A37D1A00A989BB /* VoronoiDefs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VoronoiDefs.h; sourceTree = "<group>"; };
+		C0600724158D36CE00B2C116 /* VoronoiFortune.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VoronoiFortune.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0600728158D36CE00B2C116 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C060072A158D36CE00B2C116 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C060072C158D36CE00B2C116 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C0600730158D36CE00B2C116 /* VoronoiFortune-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VoronoiFortune-Info.plist"; sourceTree = "<group>"; };
+		C0600732158D36CE00B2C116 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C0600734158D36CE00B2C116 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C0600736158D36CE00B2C116 /* VoronoiFortune-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VoronoiFortune-Prefix.pch"; sourceTree = "<group>"; };
+		C0600737158D36CE00B2C116 /* VoronoiFortuneAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VoronoiFortuneAppDelegate.h; sourceTree = "<group>"; };
+		C0600738158D36CE00B2C116 /* VoronoiFortuneAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VoronoiFortuneAppDelegate.m; sourceTree = "<group>"; };
+		C0600745158D36CE00B2C116 /* VoronoiFortuneTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VoronoiFortuneTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0600746158D36CE00B2C116 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		C060074E158D36CE00B2C116 /* VoronoiFortuneTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VoronoiFortuneTests-Info.plist"; sourceTree = "<group>"; };
+		C0600750158D36CE00B2C116 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C0600752158D36CE00B2C116 /* VoronoiFortuneTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VoronoiFortuneTests.h; sourceTree = "<group>"; };
+		C0600753158D36CE00B2C116 /* VoronoiFortuneTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VoronoiFortuneTests.m; sourceTree = "<group>"; };
+		C060075D158D37FE00B2C116 /* PointEditorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PointEditorView.h; path = ../PointEditorView.h; sourceTree = "<group>"; };
+		C060075E158D37FE00B2C116 /* PointEditorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PointEditorView.m; path = ../PointEditorView.m; sourceTree = "<group>"; };
+		C0600760158D438C00B2C116 /* PointEditorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PointEditorViewController.h; sourceTree = "<group>"; };
+		C0600761158D438C00B2C116 /* PointEditorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PointEditorViewController.m; sourceTree = "<group>"; };
+		C060077315912CB700B2C116 /* EventQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventQueue.h; sourceTree = "<group>"; };
+		C060077415912CB700B2C116 /* EventQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventQueue.m; sourceTree = "<group>"; };
+		C060077915912CB900B2C116 /* VoronoiBeachline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VoronoiBeachline.h; sourceTree = "<group>"; };
+		C060077A15912CB900B2C116 /* VoronoiBeachline.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VoronoiBeachline.m; sourceTree = "<group>"; };
+		C060077B15912CB900B2C116 /* VoronoiCircle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VoronoiCircle.h; sourceTree = "<group>"; };
+		C060077C15912CB900B2C116 /* VoronoiCircle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VoronoiCircle.m; sourceTree = "<group>"; };
+		C060077D15912CB900B2C116 /* VoronoiCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VoronoiCommon.h; sourceTree = "<group>"; };
+		C060077E15912CBA00B2C116 /* VoronoiDiagram.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VoronoiDiagram.h; sourceTree = "<group>"; };
+		C060077F15912CBA00B2C116 /* VoronoiDiagram.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VoronoiDiagram.m; sourceTree = "<group>"; };
+		C060078015912CBA00B2C116 /* VoronoiFortuneAlgorithm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VoronoiFortuneAlgorithm.h; sourceTree = "<group>"; };
+		C060078115912CBA00B2C116 /* VoronoiFortuneAlgorithm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VoronoiFortuneAlgorithm.m; sourceTree = "<group>"; };
+		C060078215912CBA00B2C116 /* VoronoiMath.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = VoronoiMath.c; sourceTree = "<group>"; };
+		C060078315912CBB00B2C116 /* VoronoiMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VoronoiMath.h; sourceTree = "<group>"; };
+		C060078415912CBB00B2C116 /* VoronoiSite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VoronoiSite.h; sourceTree = "<group>"; };
+		C060078515912CBB00B2C116 /* VoronoiSite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VoronoiSite.m; sourceTree = "<group>"; };
+		C060079615912D4600B2C116 /* VoronoiView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VoronoiView.h; sourceTree = "<group>"; };
+		C060079715912D4600B2C116 /* VoronoiView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VoronoiView.m; sourceTree = "<group>"; };
+		C060079915912FB300B2C116 /* VoronoiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VoronoiViewController.h; path = ../VoronoiViewController.h; sourceTree = "<group>"; };
+		C060079A15912FB300B2C116 /* VoronoiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VoronoiViewController.m; path = ../VoronoiViewController.m; sourceTree = "<group>"; };
+		C079035F15AE17DC0065E915 /* icon3_144d.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon3_144d.png; sourceTree = SOURCE_ROOT; };
+		C079036115AE18BC0065E915 /* icon3_72d.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon3_72d.png; sourceTree = "<group>"; };
+		C07DAE88161CE94D00B3C953 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		C0F008781592628D0032F8C2 /* VoronoiFortuneUi.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = VoronoiFortuneUi.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C0600721158D36CE00B2C116 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0600729158D36CE00B2C116 /* UIKit.framework in Frameworks */,
+				C060072B158D36CE00B2C116 /* Foundation.framework in Frameworks */,
+				C060072D158D36CE00B2C116 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0600741158D36CE00B2C116 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0600747158D36CE00B2C116 /* SenTestingKit.framework in Frameworks */,
+				C0600748158D36CE00B2C116 /* UIKit.framework in Frameworks */,
+				C0600749158D36CE00B2C116 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C0600719158D36CE00B2C116 = {
+			isa = PBXGroup;
+			children = (
+				C07DAE88161CE94D00B3C953 /* Default-568h@2x.png */,
+				C079036115AE18BC0065E915 /* icon3_72d.png */,
+				C079035F15AE17DC0065E915 /* icon3_144d.png */,
+				C060072E158D36CE00B2C116 /* VoronoiFortune */,
+				C060074C158D36CE00B2C116 /* VoronoiFortuneTests */,
+				C0600727158D36CE00B2C116 /* Frameworks */,
+				C0600725158D36CE00B2C116 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C0600725158D36CE00B2C116 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C0600724158D36CE00B2C116 /* VoronoiFortune.app */,
+				C0600745158D36CE00B2C116 /* VoronoiFortuneTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0600727158D36CE00B2C116 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0600728158D36CE00B2C116 /* UIKit.framework */,
+				C060072A158D36CE00B2C116 /* Foundation.framework */,
+				C060072C158D36CE00B2C116 /* CoreGraphics.framework */,
+				C0600746158D36CE00B2C116 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C060072E158D36CE00B2C116 /* VoronoiFortune */ = {
+			isa = PBXGroup;
+			children = (
+				C00DBCF015A061E300A989BB /* VoronoiGraphics.m */,
+				C00DBCEF15A061E300A989BB /* VoronoiGraphics.h */,
+				C0600737158D36CE00B2C116 /* VoronoiFortuneAppDelegate.h */,
+				C0600738158D36CE00B2C116 /* VoronoiFortuneAppDelegate.m */,
+				C0F008781592628D0032F8C2 /* VoronoiFortuneUi.storyboard */,
+				C060078F15912CCA00B2C116 /* VoronoiAlgorithm */,
+				C060079015912CF800B2C116 /* VoronoiView */,
+				C0600765158D43C000B2C116 /* PointEditor */,
+				C060072F158D36CE00B2C116 /* Supporting Files */,
+			);
+			path = VoronoiFortune;
+			sourceTree = "<group>";
+		};
+		C060072F158D36CE00B2C116 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C0600730158D36CE00B2C116 /* VoronoiFortune-Info.plist */,
+				C0600731158D36CE00B2C116 /* InfoPlist.strings */,
+				C0600734158D36CE00B2C116 /* main.m */,
+				C0600736158D36CE00B2C116 /* VoronoiFortune-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C060074C158D36CE00B2C116 /* VoronoiFortuneTests */ = {
+			isa = PBXGroup;
+			children = (
+				C0600752158D36CE00B2C116 /* VoronoiFortuneTests.h */,
+				C0600753158D36CE00B2C116 /* VoronoiFortuneTests.m */,
+				C060074D158D36CE00B2C116 /* Supporting Files */,
+			);
+			path = VoronoiFortuneTests;
+			sourceTree = "<group>";
+		};
+		C060074D158D36CE00B2C116 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C060074E158D36CE00B2C116 /* VoronoiFortuneTests-Info.plist */,
+				C060074F158D36CE00B2C116 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C0600765158D43C000B2C116 /* PointEditor */ = {
+			isa = PBXGroup;
+			children = (
+				C060075D158D37FE00B2C116 /* PointEditorView.h */,
+				C060075E158D37FE00B2C116 /* PointEditorView.m */,
+				C00DBCE815A0532900A989BB /* VoronoiGraphics.c */,
+				C0600760158D438C00B2C116 /* PointEditorViewController.h */,
+				C0600761158D438C00B2C116 /* PointEditorViewController.m */,
+			);
+			name = PointEditor;
+			sourceTree = "<group>";
+		};
+		C060078F15912CCA00B2C116 /* VoronoiAlgorithm */ = {
+			isa = PBXGroup;
+			children = (
+				C060077315912CB700B2C116 /* EventQueue.h */,
+				C060077415912CB700B2C116 /* EventQueue.m */,
+				C060077915912CB900B2C116 /* VoronoiBeachline.h */,
+				C060077A15912CB900B2C116 /* VoronoiBeachline.m */,
+				C060077B15912CB900B2C116 /* VoronoiCircle.h */,
+				C060077C15912CB900B2C116 /* VoronoiCircle.m */,
+				C060077D15912CB900B2C116 /* VoronoiCommon.h */,
+				C060077E15912CBA00B2C116 /* VoronoiDiagram.h */,
+				C060077F15912CBA00B2C116 /* VoronoiDiagram.m */,
+				C060078015912CBA00B2C116 /* VoronoiFortuneAlgorithm.h */,
+				C060078115912CBA00B2C116 /* VoronoiFortuneAlgorithm.m */,
+				C060078215912CBA00B2C116 /* VoronoiMath.c */,
+				C060078315912CBB00B2C116 /* VoronoiMath.h */,
+				C060078415912CBB00B2C116 /* VoronoiSite.h */,
+				C060078515912CBB00B2C116 /* VoronoiSite.m */,
+				C00DBCF215A37D1A00A989BB /* VoronoiDefs.h */,
+			);
+			name = VoronoiAlgorithm;
+			sourceTree = "<group>";
+		};
+		C060079015912CF800B2C116 /* VoronoiView */ = {
+			isa = PBXGroup;
+			children = (
+				C060079915912FB300B2C116 /* VoronoiViewController.h */,
+				C060079A15912FB300B2C116 /* VoronoiViewController.m */,
+				C060079615912D4600B2C116 /* VoronoiView.h */,
+				C060079715912D4600B2C116 /* VoronoiView.m */,
+			);
+			name = VoronoiView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C0600723158D36CE00B2C116 /* VoronoiFortune */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0600757158D36CE00B2C116 /* Build configuration list for PBXNativeTarget "VoronoiFortune" */;
+			buildPhases = (
+				C0600720158D36CE00B2C116 /* Sources */,
+				C0600721158D36CE00B2C116 /* Frameworks */,
+				C0600722158D36CE00B2C116 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VoronoiFortune;
+			productName = VoronoiFortune;
+			productReference = C0600724158D36CE00B2C116 /* VoronoiFortune.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C0600744158D36CE00B2C116 /* VoronoiFortuneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C060075A158D36CE00B2C116 /* Build configuration list for PBXNativeTarget "VoronoiFortuneTests" */;
+			buildPhases = (
+				C0600740158D36CE00B2C116 /* Sources */,
+				C0600741158D36CE00B2C116 /* Frameworks */,
+				C0600742158D36CE00B2C116 /* Resources */,
+				C0600743158D36CE00B2C116 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C060074B158D36CE00B2C116 /* PBXTargetDependency */,
+			);
+			name = VoronoiFortuneTests;
+			productName = VoronoiFortuneTests;
+			productReference = C0600745158D36CE00B2C116 /* VoronoiFortuneTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C060071B158D36CE00B2C116 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = C060071E158D36CE00B2C116 /* Build configuration list for PBXProject "VoronoiFortune" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C0600719158D36CE00B2C116;
+			productRefGroup = C0600725158D36CE00B2C116 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C0600723158D36CE00B2C116 /* VoronoiFortune */,
+				C0600744158D36CE00B2C116 /* VoronoiFortuneTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C0600722158D36CE00B2C116 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0600733158D36CE00B2C116 /* InfoPlist.strings in Resources */,
+				C0F008791592628D0032F8C2 /* VoronoiFortuneUi.storyboard in Resources */,
+				C079036015AE17DC0065E915 /* icon3_144d.png in Resources */,
+				C079036215AE18BC0065E915 /* icon3_72d.png in Resources */,
+				C07DAE89161CE94D00B3C953 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0600742158D36CE00B2C116 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0600751158D36CE00B2C116 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C0600743158D36CE00B2C116 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C0600720158D36CE00B2C116 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0600735158D36CE00B2C116 /* main.m in Sources */,
+				C0600739158D36CE00B2C116 /* VoronoiFortuneAppDelegate.m in Sources */,
+				C060075F158D37FE00B2C116 /* PointEditorView.m in Sources */,
+				C0600763158D438C00B2C116 /* PointEditorViewController.m in Sources */,
+				C060078615912CBB00B2C116 /* EventQueue.m in Sources */,
+				C060078915912CBB00B2C116 /* VoronoiBeachline.m in Sources */,
+				C060078A15912CBB00B2C116 /* VoronoiCircle.m in Sources */,
+				C060078B15912CBB00B2C116 /* VoronoiDiagram.m in Sources */,
+				C060078C15912CBB00B2C116 /* VoronoiFortuneAlgorithm.m in Sources */,
+				C060078D15912CBB00B2C116 /* VoronoiMath.c in Sources */,
+				C060078E15912CBB00B2C116 /* VoronoiSite.m in Sources */,
+				C060079815912D4600B2C116 /* VoronoiView.m in Sources */,
+				C060079C15912FB300B2C116 /* VoronoiViewController.m in Sources */,
+				C00DBCE915A0532900A989BB /* VoronoiGraphics.c in Sources */,
+				C00DBCF115A061E300A989BB /* VoronoiGraphics.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0600740158D36CE00B2C116 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0600754158D36CE00B2C116 /* VoronoiFortuneTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C060074B158D36CE00B2C116 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C0600723158D36CE00B2C116 /* VoronoiFortune */;
+			targetProxy = C060074A158D36CE00B2C116 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C0600731158D36CE00B2C116 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0600732158D36CE00B2C116 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C060074F158D36CE00B2C116 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0600750158D36CE00B2C116 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C0600755158D36CE00B2C116 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		C0600756158D36CE00B2C116 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C0600758158D36CE00B2C116 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VoronoiFortune/VoronoiFortune-Prefix.pch";
+				INFOPLIST_FILE = "VoronoiFortune/VoronoiFortune-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C0600759158D36CE00B2C116 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VoronoiFortune/VoronoiFortune-Prefix.pch";
+				INFOPLIST_FILE = "VoronoiFortune/VoronoiFortune-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C060075B158D36CE00B2C116 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/VoronoiFortune.app/VoronoiFortune";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VoronoiFortune/VoronoiFortune-Prefix.pch";
+				INFOPLIST_FILE = "VoronoiFortuneTests/VoronoiFortuneTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		C060075C158D36CE00B2C116 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/VoronoiFortune.app/VoronoiFortune";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VoronoiFortune/VoronoiFortune-Prefix.pch";
+				INFOPLIST_FILE = "VoronoiFortuneTests/VoronoiFortuneTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C060071E158D36CE00B2C116 /* Build configuration list for PBXProject "VoronoiFortune" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0600755158D36CE00B2C116 /* Debug */,
+				C0600756158D36CE00B2C116 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0600757158D36CE00B2C116 /* Build configuration list for PBXNativeTarget "VoronoiFortune" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0600758158D36CE00B2C116 /* Debug */,
+				C0600759158D36CE00B2C116 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C060075A158D36CE00B2C116 /* Build configuration list for PBXNativeTarget "VoronoiFortuneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C060075B158D36CE00B2C116 /* Debug */,
+				C060075C158D36CE00B2C116 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C060071B158D36CE00B2C116 /* Project object */;
+}
